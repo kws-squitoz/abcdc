@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+   text-decoration: none;
+}
+body{
+	background-color:#000066;
+}
+.balloon{
+	height: 60px;
+	width: 55px;
+	background-color: crimson;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	border-radius: 50%;
+    animation: move 4s ease-in infinite;
+}
+.balloon:before{
+	content: "";
+	height: 60px;
+	width: 6px;
+	position: absolute;
+	background-color: white;
+	top: 90%;
+	left: 40%;
+
+}
+@keyframes move{
+	0%{
+		top: 85%;
+	}
+	100%{
+		top: 0%;
+	}
+}
+.balloon:nth-child(2){
+	left: 20%;
+	top: 40%;
+	background-color: yellow;
+	animation-duration: 5.3s;
+}
+.balloon:nth-child(3){
+	left: 30%;
+	top: 40%;
+	background-color: lightpink;
+	animation-duration: 6.2s;
+}
+
+.balloon:nth-child(4){
+	left: 75%;
+	top: 40%;
+	background-color: rgb(199, 127, 142);
+	animation-duration: 6s;
+}
+
+
+.balloon:nth-child(6){
+	left: 15%;
+	top: 40%;
+	background-color: orange;
+	animation-duration: 4.5s;
+}
+.balloon:nth-child(7){
+	left: 90%;
+	top: 40%;
+	background-color: yellow;
+	animation-duration: 7.5s;
+}
+
+.balloon:nth-child(8){
+	left: 80%;
+	top: 40%;
+	background-color: blue;
+	animation-duration: 6s;
+}
+.balloon:nth-child(9){
+	left: 85%;
+	top: 40%;
+	background-color: crimson;
+	animation-duration: 6.5s;
+}
+.balloon:nth-child(10){
+	left: 20%;
+	top: 40%;
+	background-color: rgb(66, 30, 37);
+	animation-duration: 6s;
+}
+.balloon:nth-child(11){
+	left: 25%;
+	top: 40%;
+	background-color: rgb(153, 108, 11);
+	animation-duration: 5.5s;
+}
+
+
+
+	h2{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	transform: translate(-30%,-50%);}
+	h3{
+		font-size: 25px;
+		color: white;
+		position: absolute;
+		top: 45%;
+		left: 47%;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		transform: translate(-30%,-50%);
+	justify-content: justify;
+}
+	
